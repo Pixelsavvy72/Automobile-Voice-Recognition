@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.7);
+  /* box-shadow: 0 9px #999; */
+  border: none;
+  font-size: 3em;
+  font-weight: 800;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+/* .button:hover {background-color: red} */
+
+.button:active {
+  background-color: red;
+  /* box-shadow: 0 5px #666; */
+  box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+  
+  transform: translateY(4px);
+}
+.button:focus { outline: 0; };

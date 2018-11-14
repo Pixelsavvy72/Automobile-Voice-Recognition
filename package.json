@@ -1,0 +1,21 @@
+{
+  "name": "voice-rec-drive",
+  "version": "1.0.0",
+  "description": "Simple voice controller for driving simulator.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec",
+    "test": "nodemon --exec \"mocha --recursive -R min\""
+  },
+  "author": "Craig Pirrall",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
+  }
+}
